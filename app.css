@@ -1,3 +1,11 @@
+#mainNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: grey;
+    align-items: center;
+    align-content: center;
+}
 #ham{
     width: 24px;
     height: 24px;
@@ -7,3 +15,35 @@
     width: 124px;
     height: auto;
 }
+#search-area{
+    display: flex;
+    justify-content: space-between;
+}
+#search-area form{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#search-area input{
+    width: 563px;
+    height: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+#search{
+    height: 100%;
+    width: 64px;
+    background-color: lightgrey;
+    border: none;
+    position: absolute;
+    right: 0;
+}
+#search-area #mic{
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    border: none;
+    margin-left: 10px;
+
+}
+

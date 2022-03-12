@@ -1,8 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 #mainNav{
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
-    background-color: grey;
+    /* background-color: grey; */
     align-items: center;
     align-content: center;
 }
@@ -33,7 +37,7 @@
 #search{
     height: 100%;
     width: 64px;
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
     border: none;
     position: absolute;
     right: 0;
@@ -47,3 +51,55 @@
 
 }
 
+#left {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#left #ham {
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-right: 15px;
+}
+
+#right {
+    display: flex;
+    width: 150px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#right span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: palegreen;
+}
+section{
+    background-color: #f9f9f9;
+    height: 100vh;
+    padding: 25px 50px 15px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.play-list img{
+    width: 24px;
+    height: 24px;
+}
+
+.all-row span{
+    padding: 3px 7px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.all-row .all{
+    background-color: black;
+    color: white;
+}
